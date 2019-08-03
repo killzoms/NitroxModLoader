@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitroxModLoader", "NitroxModLoader\NitroxModLoader.csproj", "{8E26B0B4-6A3A-4B9A-AE12-E7A862155B56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleProject", "ExampleProject\ExampleProject.csproj", "{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{8E26B0B4-6A3A-4B9A-AE12-E7A862155B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E26B0B4-6A3A-4B9A-AE12-E7A862155B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E26B0B4-6A3A-4B9A-AE12-E7A862155B56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

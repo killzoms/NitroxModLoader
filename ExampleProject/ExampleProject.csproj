@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8E26B0B4-6A3A-4B9A-AE12-E7A862155B56}</ProjectGuid>
+    <ProjectGuid>{F3C9B256-8472-4FAF-9DCD-E773C33AF9CE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>NitroxModLoader</RootNamespace>
-    <AssemblyName>NitroxModLoader</AssemblyName>
+    <RootNamespace>ExampleProject</RootNamespace>
+    <AssemblyName>ExampleProject</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -30,9 +30,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,14 +39,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loader.cs" />
-    <Compile Include="ModId.cs" />
-    <Compile Include="Networking\ModPacket.cs" />
-    <Compile Include="NitroxMod.cs" />
-    <Compile Include="Attributes\NitroxModAttribute.cs" />
-    <Compile Include="Attributes\NitroxModPostInit.cs" />
-    <Compile Include="Attributes\NitroxModPreInitAttribute.cs" />
+    <Compile Include="Example.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NitroxModLoader\NitroxModLoader.csproj">
+      <Project>{8e26b0b4-6a3a-4b9a-ae12-e7a862155b56}</Project>
+      <Name>NitroxModLoader</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
